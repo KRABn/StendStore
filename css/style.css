@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    font-family: 'Jost', sans-serif;
+}
+
+.header-logo {
+    margin: -75px -50px;
+}
+
+.container {
+    margin: 0px;
+}
+
+.header-line {
+    padding-top: 100px;
+    display: flex;
+    text-align: center;
+}
+
+.nav-item {
+    color: #000000;
+    text-decoration: none;
+    font-weight: 00;
+    font-size: 21px;
+    margin-right: 50px;
+    padding: 14px 15px;
+    background-color: #6000fc;
+    border-radius: 20px;
+}
+
+.nav-item:hover {
+    color: rgb(255, 255, 255);
+    transition: color 0.2s linear;
+}
+
+
+.hader-title {
+    color: #b876ff;
+    font-family: 'IBM Plex Serif', sans-serif;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 40px;
+    
+}
+    /* text-transform: uppercase;
+    background: url(color-smoke-abstract-wallpaper-aesthetic-background-design.jpg);
+    background-repeat: repeat-x;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-size: contain;
+    animation: dim 13s linear infinite;
+} */
+
+/* /
+
+.header-collection {
+    color: #ff7400;
+    text-decoration: none;
+    font-weight: 00;
+    font-size: 20px;
+    margin-right: 20px;
+} */
+
+th {
+    font-weight: normal;
+    font-size: 40px;
+    color: #ff7400;
+    text-transform: uppercase;
+    border-bottom: 1px solid white;
+    padding: 30px;
+}
+
+td {
+    color: #ff7400;
+    padding: 20px 40px;
+    vertical-align: middle;
+}
+
+.header-collection1 {
+    color: #5915c7;
+    text-decoration: none;
+    font-size: 40px;
+    margin-right: 20px;
+    padding: 5px 7px;
+    background-color: rgb(42, 3, 78);
+    border-radius: 15px;
+    transition: 0.4s ease-in-out;
+    text-align: center;
+}
+
+.header-collection1:hover {
+    color: rgb(34, 4, 59);
+    background-color: #591abd;  
+}
+
+html {
+    background-image: url(4053163.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+  }
+
+  .histoti {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    color: #fffefe;
+    text-align: justify;
+    padding: 14px 15px;
+    background-color: #2b2622;
+  }
+
+  .histoti1 {
+    object-position: 50% 50%;
+    display: block;
+    margin: auto;
+    padding: 14px 4px;
+    background-color: #2b2622;
+  }
+  .histoti2 {
+    object-position: 50% 50%;
+    display: block;
+    margin: auto;
+    padding: 14px 432px;
+    background-color: #2b2622;
+  }
