@@ -1,6 +1,15 @@
 body {
     margin: 0;
     font-family: 'Jost', sans-serif;
+    overflow-x: hidden;
+    background-image: url(../img/xxx.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .header-logo {
@@ -12,25 +21,40 @@ body {
 }
 
 .header-line {
-    padding-top: 100px;
+    padding-top: 70px;
     display: flex;
     text-align: center;
 }
 
 .nav-item {
-    color: #000000;
+    color: #fff;
+    font-family: 'Jost', sans-serif;
     text-decoration: none;
     font-weight: 00;
-    font-size: 21px;
-    margin-right: 50px;
+    font-size: 29px;
+    margin-right: 45px;
     padding: 14px 15px;
-    background-color: #6000fc;
+    background-color: rgba(97, 39, 138, 0.774);
     border-radius: 20px;
+    text-align: center;
 }
 
 .nav-item:hover {
-    color: rgb(255, 255, 255);
-    transition: color 0.2s linear;
+    color: rgb(0, 0, 0);
+    transition: 0.2s ease-in-out;
+}
+
+.nav-item1 {
+    color: #fff;
+    font-family: 'Jost', sans-serif;
+    text-decoration: none;
+    font-weight: 00;
+    font-size: 29px;
+    margin-right: 45px;
+    padding: 17px 20px;
+    background-color: rgba(94, 38, 133, 0.795);
+    border-radius: 20px;
+    text-align: center;
 }
 
 
@@ -42,48 +66,15 @@ body {
     margin-top: 40px;
     
 }
-    /* text-transform: uppercase;
-    background: url(color-smoke-abstract-wallpaper-aesthetic-background-design.jpg);
-    background-repeat: repeat-x;
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-    background-size: contain;
-    animation: dim 13s linear infinite;
-} */
-
-/* /
-
-.header-collection {
-    color: #ff7400;
-    text-decoration: none;
-    font-weight: 00;
-    font-size: 20px;
-    margin-right: 20px;
-} */
-
-th {
-    font-weight: normal;
-    font-size: 40px;
-    color: #ff7400;
-    text-transform: uppercase;
-    border-bottom: 1px solid white;
-    padding: 30px;
-}
-
-td {
-    color: #ff7400;
-    padding: 20px 40px;
-    vertical-align: middle;
-}
 
 .header-collection1 {
-    color: #5915c7;
+    color: #fff;
     text-decoration: none;
-    font-size: 40px;
+    font-family: 'Jost', sans-serif;
+    font-size: 32px;
     margin-right: 20px;
     padding: 5px 7px;
-    background-color: rgb(42, 3, 78);
+    background-color: rgba(94, 38, 133);
     border-radius: 15px;
     transition: 0.4s ease-in-out;
     text-align: center;
@@ -94,38 +85,206 @@ td {
     background-color: #591abd;  
 }
 
-html {
-    background-image: url(4053163.png);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    
-  }
 
-  .histoti {
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 30px;
-    color: #fffefe;
-    text-align: justify;
+
+  @media (max-width: 1921px) {
+    .header-line {
+        display: flex;
+        justify-content: center;
+    }
+    .collectoin1 {
+        display: flex;
+        justify-content: center;
+    }
+}
+@media (max-width: 1440px) {
+    .header-line {
+        display: flex;
+        justify-content: center;
+}
+.nav-item {
+    font-size: 22px;
+}
+.nav-item1 {
+    font-size: 22px;
+}
+
+.hader-title {
+    margin: 50px 320px;
+}
+.header-collection {
+    margin: 10px 10px;
+    display: flex;
+    justify-content: center;
+}
+}
+
+@media (max-width: 1201px) {
+ .nav-item {
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+ }
+   
+ .nav-item1 {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
     padding: 14px 15px;
-    background-color: #2b2622;
-  }
+    font-size: 20px;
+ }
 
-  .histoti1 {
-    object-position: 50% 50%;
-    display: block;
-    margin: auto;
-    padding: 14px 4px;
-    background-color: #2b2622;
-  }
-  .histoti2 {
-    object-position: 50% 50%;
-    display: block;
-    margin: auto;
-    padding: 14px 432px;
-    background-color: #2b2622;
-  }
+ .hader-title {
+    margin: 50px 120px;
+ }
+} 
+
+@media (max-width: 1199px) {
+    .nav-item {
+        margin: 0px 30px;
+        font-size: 20px;
+    }
+      
+    .nav-item1 {
+        padding: 14px 15px;
+        margin: 10px 350px;
+        font-size: 20px;
+    }
+   
+    .hader-title {
+       margin: 50px 190px;
+    }
+    .Collection {
+        padding: auto;
+    }
+   } 
+
+@media (max-width: 1024px) {
+.nav-item1 {
+    padding: 14px 15px;
+    margin: 10px 350px;
+    font-size: 20px;
+}
+
+.nav-item {
+    margin: 0px 30px;
+    font-size: 20px;
+}
+.Collection {
+    margin: 50px 250px;
+}
+.collectoin1 {
+    margin: 20px 310px;
+}
+}
+
+@media (max-width: 991px) {
+    .nav-item {
+        margin: 0px 30px;
+        font-size: 20px;
+    }
+      
+    .nav-item1 {
+        padding: 14px 15px;
+        margin: 10px 310px;
+        font-size: 20px;
+    }
+   
+    .hader-title {
+       margin: 50px 190px;
+    }
+}
+
+@media (max-width: 768px) {
+.hader-title {
+    font-size: 20px;
+    padding: 4px 40px;
+    margin: 50px 110px;
+}
+.nav-item1 {
+    font-size: 20px;
+    margin: 10px 290px;
+}
+.Collection {
+    margin: 20px 250px;
+}
+.header-collection {
+    display: flex;
+    justify-content: center;
+}
+}
+
+@media (max-width: 767px) {
+    .hader-title {
+        font-size: 20px;
+        padding: 4px 40px;
+        margin: 50px 110px;
+    }
+    .nav-item1 {
+        font-size: 20px;
+        margin: 10px 0.1px;
+    }
+    .nav-item {
+        margin: 10px 0px;
+    }
+    }
+
+    @media (max-width: 662px) {
+        .Collection {
+            margin: 0px 200px;
+        }
+        .td {
+            padding: 20px 10px;
+        }
+        .th {
+            font-size: 20px;
+        }
+        .header-collection {
+            font-size: 10px;
+        }
+    }
+
+
+@media (max-width: 575px) {
+    .nav-item {
+        margin: 10px 40px;
+        font-size: 19px;
+    }
+    .nav-item1 {
+        font-size: 19px;
+        margin: 10px 30px;
+    }
+    .accordion {
+        margin: 10px 10px;
+    }
+    .layout {
+        width: auto;
+        margin: auto;
+    }
+}
+
+@media (max-width: 425px) {
+    .Collection{
+        margin: 20px 100px;
+        font-size: 25px;
+    }
+.collectoin1 {
+    margin: 20px 100px;
+}
+}
+
+
+@media (max-width: 320px) {
+    .hader-title {
+    margin: 30px;
+}
+.header-line {
+    padding: 30px 0px;
+}
+.Collection {
+    margin: 0px 50px;
+}
+}
