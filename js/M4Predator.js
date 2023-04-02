@@ -3,7 +3,7 @@ window.onload = function () {
       backgroundColor: "#00000000",
       title: {
           text: "M4 Predator" ,
-          fontColor: "rgb(170, 84, 255)",
+          fontColor: "rgb(247, 237, 252)",
       },
       exportEnabled: true,
 zoomEnabled: true,
