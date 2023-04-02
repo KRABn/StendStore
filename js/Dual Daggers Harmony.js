@@ -3,7 +3,7 @@ window.onload = function () {
         backgroundColor: "#00000000",
         title: {
             text: "Dual Daggers Harmony" ,
-            fontColor: "rgb(170, 84, 255)",
+            fontColor: "rgb(247, 237, 252)",
         },
         exportEnabled: true,
   zoomEnabled: true,
@@ -18,7 +18,7 @@ window.onload = function () {
       data: [
       {        
         type: "area",
-        color: "rgb(127, 0, 255)",
+        color: "rgb(168, 155, 155)",
         dataPoints: [
   
         { x: new Date(2022, 05, 27), y: 999999} ,
