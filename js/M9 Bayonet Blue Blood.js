@@ -6,6 +6,12 @@ const options = {
 		type: "line",
 		background: "rgb(123, 54, 168, 0.3)",
 		foreColor: "#ebe4f0",
+		events: {
+//       scrolled: function(chartContext, { xaxis }) {
+//       }
+brushScrolled: function(chartContext, { xaxis, yaxis }) {
+}
+      },
     dropShadow: {
       enabled: false,
       enabledOnSeries: undefined,
