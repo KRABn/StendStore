@@ -1,7 +1,7 @@
 body {
     margin: 0;
     width: 100%;
-    top: 100%;
+    max-width: 100%;
     font-family: 'Jost', sans-serif;
     overflow-x: hidden;
     background-image: url(../img/fon3f.jpg);
@@ -18,10 +18,10 @@ body {
     margin: -75px -50px;
 }
 
-.html {
+html{
     width: 100%;
-    top: 100%;
-	overflow-x: hidden;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 .container {
@@ -62,9 +62,9 @@ body {
 .collectoin1 {
     padding: 15px 15px;
     font-family: 'Jost', sans-serif;
-    border-radius: 15px;
+    border-radius: 20px;
     background-color: #4f0e85;
-    margin: 20px 610px;
+    margin: 20px 590px;
     font-size: 32px;
     color: #e4dcf1;
     text-align: center;
@@ -92,7 +92,7 @@ body {
     font-size: 29px;
     margin-right: 45px;
     padding: 14px 15px;
-    background-color: rgba(97, 39, 138, 0.774);
+    background-color: rgba(97, 39, 138, 0.904);
     border-radius: 20px;
     text-align: center;
 }
@@ -115,7 +115,7 @@ body {
     font-size: 29px;
     margin-right: 45px;
     padding: 17px 20px;
-    background-color: rgba(94, 38, 133, 0.795);
+    background-color: rgba(94, 38, 133, 0.904);
     border-radius: 20px;
     text-align: center;
 }
@@ -179,6 +179,11 @@ body {
     height: 70px;
 }
 
+.chart {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 
 @media (max-width: 1921px) {
     .header-line {
@@ -377,6 +382,24 @@ body {
     }
 .collectoin1 {
     margin: 20px 100px;
+}
+.header-line {
+    padding: 30px 0px;
+}
+body {
+    margin: 0;
+    width: 100%;
+    max-width: 100%;
+    font-family: 'Jost', sans-serif;
+    overflow-x: hidden;
+    background-image: url(../img/fon3fm.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 }
 
