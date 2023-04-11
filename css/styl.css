@@ -181,6 +181,20 @@ body {
     text-align: left;
 }
 
+.blag {
+    margin: 70px 300px;
+    color: #e8e1ee;
+    font-family: 'Jost', sans-serif;
+    text-decoration: none;
+    font-weight: 00;
+    font-size: 20px;
+    padding: 10px 10px;
+    border-radius: 20px;
+    background-color: #36225a;
+    text-align: center;
+}
+
+
 .m {
     text-decoration: none;
     color: red;
@@ -188,6 +202,7 @@ body {
 .n {
     text-decoration: none;
     color: blue;
+}
 }
 
 /* Адаптация */
