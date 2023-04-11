@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: 'Jost', sans-serif;
-    background-image: url(../img/uuu.jpg);
+    background-image: url(../img/fon2.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -34,7 +34,7 @@ body {
     font-size: 29px;
     margin-right: 45px;
     padding: 14px 15px;
-    background-color: rgba(97, 39, 138, 0.774);
+    background-color: rgba(97, 39, 138, 0.904);
     border-radius: 20px;
     text-align: center;
 }
@@ -56,7 +56,7 @@ body {
     font-size: 20px;
     margin-right: 45px;
     padding: 17px 20px;
-    background-color: rgba(97, 39, 138, 0.774);
+    background-color: rgba(97, 39, 138, 0.904);
     border-radius: 20px;
     text-align: center;
 }
@@ -338,7 +338,7 @@ body {
         width: auto;
         margin: auto;
     }
-    .html,body {
+    /* .html,body {
         margin: 0;
         font-family: 'Jost', sans-serif;
         overflow-x: hidden;
@@ -350,7 +350,7 @@ body {
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-    }
+    } */
     .col-xl-3.col-lg-4.col-md-4.col-sm-6.col-xs-12 {
         padding: 0px 0px 0px 0px;
         margin: auto;
@@ -376,6 +376,9 @@ body {
     #item {
         width: 108px;
         display: inline-block;
+    }
+    .header-line {
+        padding: 30px 0px;
     }
 }
 
