@@ -698,7 +698,7 @@ const options = {
   },
 
   title: {
-    text: "AWM Sport",
+    text: "M4 Predator",
     align: "center",
     margin: 20,
     offsetY: 20,
