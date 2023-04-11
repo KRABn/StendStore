@@ -386,7 +386,7 @@ html{
 .header-line {
     padding: 30px 0px;
 }
-body {
+html,body {
     margin: 0;
     width: 100%;
     max-width: 100%;
