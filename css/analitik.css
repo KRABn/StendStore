@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: 'Jost', sans-serif;
-    background-image: url(../img/fon2.jpg);
+    background-image: url(../img/test1.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -64,7 +64,7 @@ body {
 .Collection {
     padding: 15px 15px;
     border-radius: 15px;
-    background-color: #4f0e85;
+    background-color: rgba(97, 39, 138, 0.904);
     margin: 50px 500px;
     font-size: 32px;
     color: #e4dcf1;
@@ -338,11 +338,11 @@ body {
         width: auto;
         margin: auto;
     }
-    /* .html,body {
+    .html,body {
         margin: 0;
         font-family: 'Jost', sans-serif;
         overflow-x: hidden;
-        background-image: url(../img/mob.jpg);
+        background-image: url(../img/test1m.jpg);
         background-repeat: no-repeat;
         background-position: center center;
         background-attachment: fixed;
@@ -350,7 +350,7 @@ body {
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-    } */
+    }
     .col-xl-3.col-lg-4.col-md-4.col-sm-6.col-xs-12 {
         padding: 0px 0px 0px 0px;
         margin: auto;
