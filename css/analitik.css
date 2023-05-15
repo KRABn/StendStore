@@ -134,6 +134,9 @@ body {
 #item {
 	width: 216px;
 	display: inline-block;
+    background-color: #1f0831ec;
+    border-radius: 3vh;
+    margin: 1vh;
 }
 
 #item img:hover {
