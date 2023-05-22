@@ -340,7 +340,7 @@ body {
         width: auto;
         margin: auto;
     }
-    .html, body {
+    body {
         overflow-x: hidden;
         background-image: url(../img/test1m.jpg);
         background-repeat: no-repeat;
