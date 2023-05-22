@@ -160,6 +160,9 @@ html{
 #item {
 	width: 216px;
 	display: inline-block;
+    background-color: #1f0831ec;
+    border-radius: 3vh;
+    margin: 1vh;
 }
 
 #item img:hover {
@@ -386,7 +389,7 @@ html{
 .header-line {
     padding: 30px 0px;
 }
-html,body {
+body {
     margin: 0;
     width: 100%;
     max-width: 100%;
