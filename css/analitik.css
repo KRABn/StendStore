@@ -341,12 +341,17 @@ body {
         margin: auto;
     }
     .html, body {
-        margin: 0;
         font-family: 'Jost', sans-serif;
-        overflow-x: hidden;
         background-image: url(../img/test1m.jpg);
 	height: 100vh; 
         width: 100vh; 
+	background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     }
     .col-xl-3.col-lg-4.col-md-4.col-sm-6.col-xs-12 {
         padding: 0px 0px 0px 0px;
