@@ -412,6 +412,7 @@ html{
  overflow: auto;
  height: 100%;
 }
+}
 	
 @media (max-width: 320px) {
     .hader-title {
