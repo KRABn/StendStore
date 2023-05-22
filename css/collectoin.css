@@ -175,6 +175,10 @@ html{
 #item img {
 	width: 216px;
 	height: 141px;
+	display: inline-block;
+    background-color: #1f0831ec;
+    border-radius: 3vh;
+    margin: 1vh;
 }
 
 .a {
