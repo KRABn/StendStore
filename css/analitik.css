@@ -3,7 +3,7 @@ body {
     font-family: 'Jost', sans-serif;
     background-image: url(../img/test1.jpg);
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center;
     background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
