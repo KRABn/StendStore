@@ -18,7 +18,16 @@
 </head>
 
 <body>
+<script type="text/javascript" src="https://vk.com/js/api/openapi.js?169"></script>
+<script type="text/javascript">
+  VK.init({apiId: API_ID});
+</script>
 
+<!-- VK Widget -->
+<div id="vk_auth"></div>
+<script type="text/javascript">
+  VK.Widgets.Auth("vk_auth", {"authUrl":"/dev/Login"});
+</script>
     <div class='header'>
         
             <div class='header-line'>
