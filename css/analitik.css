@@ -243,19 +243,6 @@ body {
     justify-content: center;
 }
 }
-
-@media (max-width: 767px) {
-    .hader-title {
-        font-size: 20px;
-        padding: 4px 40px;
-        margin: 50px 110px;
-    }
-
-    .nav-item {
-        margin: 10px 0px;
-    }
-    }
-
     @media (max-width: 662px) {
         .Collection {
             margin: 0px 200px;

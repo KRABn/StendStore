@@ -175,19 +175,16 @@ html{
     display: flex;
     justify-content: center;
 }
+.hader-title {
+    font-size: 20px;
+    padding: 4px 40px;
+    margin: 50px 110px;
 }
-
-@media (max-width: 767px) {
-    .hader-title {
-        font-size: 20px;
-        padding: 4px 40px;
-        margin: 50px 110px;
-    }
-    .nav-item {
-        font-size: 15px;
-        margin: 10px 20px;
-    }
-    }
+.nav-item {
+    font-size: 15px;
+    margin: 10px 20px;
+}
+}
 
     @media (max-width: 662px) {
         .Collection {
@@ -240,7 +237,8 @@ html{
     margin: 20px 100px;
 }
 .header-line {
-    padding: 30px 0px;
+    padding: 10px 0px;
+    margin: 10px 20px;
 }
 #item img {
     width: 80px;
@@ -249,6 +247,10 @@ html{
 #item {
     width: 80px;
     display: inline-block;
+}
+.nav-item{
+    margin: 10px -10px;
+    font-size: 13px;
 }
 }
 
@@ -262,6 +264,19 @@ html{
 
 .header-line {
     padding: 30px 0px;
+}
+.Collection {
+    margin: 0px 50px;
+}
+}
+@media (max-width: 320px) {
+    .hader-title {
+    margin: 15px;
+    font-size: 17px;
+}
+
+.header-line {
+    padding: 20px 10px;
 }
 .Collection {
     margin: 0px 50px;
