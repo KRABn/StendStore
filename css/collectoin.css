@@ -141,26 +141,31 @@ html{
 }
 
 #item {
-	width: 216px;
+	width: 219px;
 	display: inline-block;
     background-color: #1f0831ec;
     border-radius: 3vh;
     margin: 1vh;
+    transition: 0.2s ease-in-out;
 }
 
 .items {
     align-items: center;
 }
 #item img:hover {
+    opacity: 0.99;
+     }
+
+#item:hover {
     opacity: 0.5;
      }
-     
+
 #item:nth-child(4n) {
     margin-right: 0;
 }
 #item img {
-	width: 216px;
-	height: 141px;
+	width: 210px;
+	height: 135px;
     display: inline-block;
     background-color: #1f0831ec;
     border-radius: 3vh;
@@ -177,6 +182,43 @@ html{
     flex-direction: row;
     justify-content: center;
 }
+
+.rezume {
+    margin-top: 20px;
+	padding: 10px;
+	padding-bottom: 5px;
+	display: flex;  
+    justify-content: flex-end;
+}
+
+.opisanie {
+    color: #ede5fd;
+    font-family: 'Jost', sans-serif;
+    font-size: 4vh;
+}
+
+.primer {
+    background-color: rgba(10, 9, 9, 0.753); 
+    border-radius: 1vh; 
+    padding: 10px;
+    color: #ede5fd;
+    font-family: 'Jost', sans-serif;
+    font-size: 4vh;
+    margin-left: 3vh;
+}
+
+.otzivi {
+    display: flex;
+    margin-top: 20px;
+	padding: 10px;
+	padding-bottom: 5px;
+    margin: 17px;
+    color: #000000;
+    font-family: 'Jost', sans-serif;
+    font-size: 3vh;
+}
+
+
 
 @media (max-width: 1920px) {
     .header-line {
@@ -268,6 +310,13 @@ html{
 .collectoin1 {
     margin: 20px 410px;
 }
+.opisanie {
+    font-size: 3.2vh;
+}
+.primer {
+    margin-left: 8vh;
+}
+
 }
 
 @media (max-width: 991px) {
@@ -306,6 +355,11 @@ html{
     .header-collection {
         display: flex;
         justify-content: center;
+    }
+    .opisanie {
+        font-size: 2.5vh;
+        width: 500px;
+        height: 70px;
     }
     }
 
@@ -350,11 +404,11 @@ html{
     margin: 10px 20px;
 }
 #item img {
-    width: 80px;
-    height: 50px;
+    width: 78px;
+    height: 55px;
 }
 #item {
-    width: 80px;
+    width: 85px;
     display: inline-block;
 }
 .html, body {
@@ -391,3 +445,25 @@ html{
 }
 
 }
+
+.item_premiym {
+    width: 216px;
+	display: inline-block;
+    background-color: #1f0831ec;
+    border-radius: 3vh;
+    margin: 1vh;
+
+}
+
+  
+  @keyframes amimate {
+    0% {
+      background-position: 0 0;
+    }
+    50% {
+      background-position: 300% 0;
+    }
+    100% {
+      background-position: 0 0;
+    }
+  }
