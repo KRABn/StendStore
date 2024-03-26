@@ -43,20 +43,6 @@ body {
     transition: 0.2s ease-in-out;
 }
 
-.nav {
-    color: #fff;
-    font-family: 'Jost', sans-serif;
-    text-decoration: none;
-    font-weight: 00;
-    font-size: 20px;
-    margin: 50px 450px;
-    padding: 14px 15px;
-    background-color: #36225a;
-    border-radius: 20px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-}
 
 .hader-title {
     color: #fcfaff;
@@ -79,18 +65,23 @@ body {
     margin-top: 20px;
 }
 
-.alert {
+.goldaprodat {
     color: #fcfaff;
     font-family: 'Jost', sans-serif;
     font-size: 4vh;
     font-weight: 00;
     text-align: center;
-    margin-top: 100px;
+    text-decoration: none;
     padding: 14px 15px;
-    margin: 30px 220px;
+    margin: 500px;
     border-radius: 2vh;
-    background-color: rgba(38, 27, 46, 0.8);
+    background-color: rgba(97, 39, 138, 0.904);
 }
+.goldaprodat:hover {
+    color: rgb(0, 0, 0);
+    transition: 0.2s ease-in-out;
+}
+
 .bth {
     display:flex;
     justify-content: center;
@@ -188,6 +179,20 @@ body {
     text-decoration: none;
     color: blue;
 }
+.nav {
+    color: #fff;
+    font-family: 'Jost', sans-serif;
+    text-decoration: none;
+    font-weight: 00;
+    font-size: 20px;
+    margin: 50px 450px;
+    padding: 14px 15px;
+    background-color: #36225a;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
 
 /* Адаптация */
 
@@ -203,14 +208,20 @@ body {
         display: flex;
         justify-content: center;
     }
+    .goldaprodat {
+        margin: 700px;
+    }
 }
+
 
 @media (max-width: 1440px) {
     .header-line {
         display: flex;
         justify-content: center;
     }
-
+    .goldaprodat {
+        margin: 500px;
+    }
 
     .hader-title {
         margin: 50px 320px;
@@ -261,6 +272,9 @@ body {
     .blag {
         margin: 50px 200px; ;
     }
+    .goldaprodat {
+        margin: 345px;
+    }
 }
 
 @media (max-width: 991px) {
@@ -289,6 +303,9 @@ body {
     }
     .alert {
         margin: 30px 120px;
+    }
+    .goldaprodat {
+        margin: 100px;
     }
 }
 
@@ -347,6 +364,10 @@ body {
         margin: 50px 30px;
         font-size: 16px;
     }
+    .goldaprodat {
+        margin: 20px;
+        font-size: 3vh;
+    }
 }
 @media (max-width: 425px) {
 
@@ -371,6 +392,10 @@ body {
         margin: 30px 60px;
         font-size: 16px;
     }
+    .goldaprodat {
+        margin: 10px 24px;
+        font-size: 2.2vh;
+    }
 }
 
 
@@ -388,5 +413,12 @@ body {
 }
 .haeder-button {
     font-size: 16px;
+}
+.goldaprodat {
+    margin: 1px;
+    font-size: 2vh;
+}
+.alert {
+    margin: 20px 60px;
 }
 }

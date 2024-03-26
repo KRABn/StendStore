@@ -32,7 +32,7 @@ body {
     font-family: 'Jost', sans-serif;
     text-decoration: none;
     font-weight: 00;
-    font-size: 29px;
+    font-size: 20px;
     margin-right: 45px;
     padding: 14px 15px;
     background-color: rgba(97, 39, 138, 0.904);
@@ -162,7 +162,7 @@ body {
         justify-content: center;
 }
 .nav-item {
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .hader-title {

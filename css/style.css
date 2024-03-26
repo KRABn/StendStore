@@ -38,7 +38,7 @@ html{
     font-family: 'Jost', sans-serif;
     text-decoration: none;
     font-weight: 00;
-    font-size: 29px;
+    font-size: 20px;
     margin-right: 45px;
     padding: 14px 15px;
     background-color: rgba(97, 39, 138, 0.904);
@@ -78,6 +78,47 @@ html{
     background-color: #591abd;  
 }
 
+#item {
+	width: 219px;
+    border-radius: 3vh;
+    margin: 1vh;
+    transition: 0.2s ease-in-out;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#item img {
+	width: 210px;
+	height: 135px;
+    background-color: #1f0831ec;
+    border-radius: 3vh;
+    margin: 0.5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.skin_info {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    height: 100%;
+
+}
+
+.text {
+    margin-left: 20vh;
+    margin-top: 2vh;
+    color: #ffffff;
+    font-family: 'Jost', sans-serif;
+    text-decoration: none;
+    font-weight: 00;
+    text-align: left;
+    background-color: rgba(104, 32, 155, 0.856);
+    border-radius: 1vh;
+
+}
 
 
   @media (max-width: 1921px) {
@@ -252,6 +293,10 @@ html{
     margin: 10px -10px;
     font-size: 13px;
 }
+
+.text {
+    margin-left: 2vh;
+}
 }
 
 @media (max-width: 400px) {
@@ -280,5 +325,10 @@ html{
 }
 .Collection {
     margin: 0px 50px;
+}
+
+.text {
+    margin-left: 0.1vh;
+    font-size: 0.7rem;
 }
 }
